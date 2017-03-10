@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+ <!-- The contacting page for visitors to submit a message -->
+<head> 
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+<center>
+<h1>Let's Chat!</h1>
+<!-- First Div is navigation of other pages on website -->
+<div id="Line1"><br>
+<a href="vina.html">HOME</a>
+ <font style="color:#1E90FF;"><b>|</b></font> <a href="AboutMe.html">ABOUT ME</a>
+ <font style="color:#1E90FF;"><b>|</b></font> 
+<a href="Portfolio.html">PORTFOLIO</a>
+ <font style="color:#1E90FF;"><b>|</b></font> 
+ <a href="Contact.html">GET IN TOUCH</a>
+ <font style="color:#1E90FF;"><b>|</b></font></div>
+<!-- Second Div is the java script form for visitors to leave their message -->
+ <div id="Box1">
+<script> <!-- If statement to ensure visitors leave their information correctly -->
+function validateForm() {
+    var x = document.forms["myForm"]["fname].value;
+	var y = document.forms["myForm"]["femail].value;
+	var z = document.forms["myForm"]["fmessage].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;}
+    
+    else if (y == "") {
+        alert("Email must be filled out");
+        return false;}
+    
+    else if (z == "") {
+        alert("Message must be filled out");
+        return false;}
+
+    
+}
+
+function sorry() {
+	alert("Contact form is a work in progress.");
+}
+</script>
+</head>
+<body>
+<p><p><p><p><p>
+<!-- Contact Form where visitors  fill out information -->
+<form name="myForm" action="Email.html"
+onsubmit="return validateForm()" method="post">
+Name: <input type="text" name="fname">
+<br>Email: <input type="text" name="femail">
+<br>Message: <input type="text" name="fmessage" style="width:420px;height:70px;">
+<p>
+<p><input type="submit" value="Submit">
+</div>
+
+
+
+
+	
+</body>
+
+</html> 
