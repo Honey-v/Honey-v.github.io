@@ -1,0 +1,65 @@
+
+body {
+background: #FFFFFF url('../images/background1.bmp');
+    background-size: 1380px 700px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    //http://i.imgur.com/hiPMRMM.png
+ 
+}
+
+ 
+}
+h1 {
+	font-family: 'Lucida Bright', Georgia, serif;
+        font-size: 92px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 46px;
+}
+h3 {
+	font-family: 'Lucida Bright', Georgia, serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15px;
+}
+p {
+	font-family: 'Lucida Bright', Georgia, serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+        bold-color: #1E90FF;
+        
+}
+
+
+#Line1 {
+    height: 10px;
+    width: 550px;
+    padding: 5px;
+    border: 1px;
+    margin: -30px;
+    top: 20%;
+    left: 50%;
+    background: #FFFFFF;
+}
+
+#Box1 {
+    height: 400px;
+    width: 430px;
+    padding: 5px;
+    border: 1px solid #1E90FF;
+    margin: 60px;
+    top: 20%;
+    left: 50%;
+    background: #FFFFFF;
+}
+
+
+
+
